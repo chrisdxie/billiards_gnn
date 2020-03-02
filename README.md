@@ -1,6 +1,8 @@
 # An Implementation of GraphNets, applied to Simulated Billiards data
 
-<center><img src="real.gif" width="150"/><img src="rollout.gif" width="150" /><figcaption>(Left) Real Data. (Right) Rollout generated from model trained for 100k iterations. While physically plausible, note that there is some drift. [Interaction Networks](https://arxiv.org/pdf/1612.00222.pdf) reports training for 2000 epochs, which equates to about 20 million iterations.</figcaption></center>
+<img src="GIFs/real.gif" width="150"/> <img src="GIFs/rollout.gif" width="150" />
+
+(Left) Real Data. (Right) Rollout generated from model trained for 100k iterations. While physically plausible, note that there is some drift. [Interaction Networks](https://arxiv.org/pdf/1612.00222.pdf) reports training for 2000 epochs, which equates to about 20 million iterations.
 
 This codebase provides an implementation of [GraphNets](https://arxiv.org/abs/1806.01261) to a simple Billiards example. This codebases uses [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) to implement the GNNs.
 
